@@ -31,6 +31,6 @@ vote("OptionA", 13);
 
 function displayResults() {
   let s = "Poll Results:\n";
-  poll.forEach((value, key) => (s += `${key}: ${value.size} votes\n`));
+  poll.forEach((value, key) => (s += `${key}: ${value.size} votes`));
   return s;
 }
